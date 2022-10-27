@@ -1,6 +1,6 @@
 ---
 - name: Playbook to configure ansible Controller post installation
-  hosts: localhost
+  hosts: {{ host }}
   connection: local
   vars:
     controller_validate_certs: false
